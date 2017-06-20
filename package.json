@@ -1,5 +1,5 @@
 {
-  "name": "JorgeBeta",
+  "name": "jorgebeta",
   "version": "0.0.1",
   "description": "teste de jorge",
   "cordova": {
@@ -15,5 +15,15 @@
     "cordova-ios"
   ],
   "author": "jorge",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeduardoluciano/JorgeBeta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeduardoluciano/JorgeBeta/issues"
+  },
+  "homepage": "https://github.com/jeduardoluciano/JorgeBeta#readme"
 }

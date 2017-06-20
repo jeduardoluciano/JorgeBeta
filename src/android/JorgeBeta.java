@@ -12,7 +12,17 @@ import org.json.JSONObject;
  */
 public class JorgeBeta extends CordovaPlugin {
 
-   private void getNextAppointment(int minutes, CallbackContext callbackContext) {
+    @Override
+public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+    if (action.equals("getNextAppointment")) {
+        int minutes = args.getInt(0);
+        this.getNextAppointment(minutes, callbackContext);
+        return true;
+    }
+    return false;
+}
+
+ private void getNextAppointment(int minutes, CallbackContext callbackContext) {
 		if (minutes > 0) {
 			/**
 				Code to retrieve name, time of next appointment goes here
@@ -34,4 +44,6 @@ public class JorgeBeta extends CordovaPlugin {
 			callbackContext.error("minutes must be > 0");
 		}
 	}
+
+
 }
