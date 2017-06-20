@@ -1,0 +1,19 @@
+{
+  "name": "JorgeBeta",
+  "version": "0.0.1",
+  "description": "teste de jorge",
+  "cordova": {
+    "id": "cordova-plugin-jorge-beta",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "jorge",
+  "license": "ISC"
+}
